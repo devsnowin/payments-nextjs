@@ -1,5 +1,8 @@
+import { Inter } from 'next/font/google';
 import Header from '@/components/layout/Header';
 import Footer from './Footer';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export default function BaseLayout({
   children,
@@ -7,7 +10,9 @@ export default function BaseLayout({
   children: React.ReactNode;
 }) {
   return (
-    <section className="max-w-6xl mx-auto min-h-screen grid grid-rows-[auto_1fr_auto]">
+    <section
+      className={`${inter.className} --font-sans max-w-6xl mx-auto min-h-screen grid grid-rows-[auto_1fr_auto]`}
+    >
       <Header />
       {children}
       <Footer />
