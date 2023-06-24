@@ -10,7 +10,7 @@ export default function Header() {
       <nav>
         <A href="/store/cart" className="relative">
           <FiShoppingBag size={22} />
-          <span className="absolute top-2 left-3 w-5 h-5 font-bold text-xs grid place-items-center bg-red-400 rounded-full">
+          <span className="absolute top-0 left-3 w-5 h-5 font-bold text-xs grid place-items-center bg-red-400 rounded-full">
             2
           </span>
         </A>

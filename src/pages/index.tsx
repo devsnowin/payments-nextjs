@@ -9,7 +9,7 @@ export default function Home() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
         accusamus.
       </p>
-      <A href="/store" isBtn>
+      <A href="/store" isbtn>
         Get start
       </A>
     </main>
